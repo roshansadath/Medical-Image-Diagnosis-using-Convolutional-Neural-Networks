@@ -22,9 +22,10 @@ This dataset consists of 5,856 chest X-ray images of patients with and without p
 
 This dataset contains a total of 32,687 images with 5 classes of respiratory diseases, including COVID-19 (4,189), Lung-Opacity (6,012), Normal (10,192), Viral Pneumonia (7,397), and Tuberculosis (4,897). The data is in the form of a .npz file, which is a dictionary containing the image (224*224), image name, and image label. We have sampled 12,000 images from this dataset.
 
-#### Source : Arkaprabha Basu, Sourav Das, Susmita Ghosh,
-              Sankha Mullick, Avisek Gupta, and Swagatam Das.
-              Chest X-Ray Dataset for Respiratory Disease Classification,2021.
+#### Source : 
+  Arkaprabha Basu, Sourav Das, Susmita Ghosh,
+  Sankha Mullick, Avisek Gupta, and Swagatam Das.
+  Chest X-Ray Dataset for Respiratory Disease Classification,2021.
 
 ### Dataset 3
 
