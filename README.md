@@ -5,11 +5,6 @@
 
 Medical Imaging is a critical component of modern healthcare that can aid medical professionals to make more informed diagnostic decisions. Chest X-rays are the most commonly used medical imaging modality and their interpretation can be a time-consuming, challenging, and error-prone process, even for expert radiologists to accurately diagnose diseases. The advancement of AI has triggered a significant transformation in the field of Healthcare, thus, our project aims to utilize state-of-the-art AI models, to assist in the diagnosis of respiratory and cardiovascular conditions in patients. We seek to train advanced Convolutional Neural Networks (CNNs) (AlexNet, ResNet18, and Inceptionv3), with Chest X-Ray images, to compare the performance metrics of these AI models to identify the underlying trends in the data and to diagnose abnormalities accurately.
 
-## Literature Review
-
-Traditional Computer vision (CV) techniques have shown several limitations with respect to accuracy and performance. One of the major drawbacks is their reliance on custom or handcrafted features. In contrast, deep learning approaches such as CNNs can automatically learn relevant features directly from the image data and are superb when it comes to feature extraction.
-
-In a study published in the journal ’Radiology’, researchers compared the performance of traditional computer-vision methods and deep learning methods for the detection of lung nodules in chest CT scans. It was concluded that deep learning methods outperformed with fewer false positives and higher sensitivity [3]. Thus, CNNs for image classification tasks can bypass the need for complicated and expensive feature engineering [9].
 
 ## Expected Results
 
