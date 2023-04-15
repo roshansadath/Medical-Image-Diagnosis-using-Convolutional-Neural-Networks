@@ -87,6 +87,49 @@ This should output the version number of PyTorch.
 
 
 
+## Training and Validating Our PyTorch Models in Google Colab
+
+To train and validate our PyTorch models in Google Colab, you can follow these steps:
+!!!!!!! Under Progress !!!!!!
+1. Load your dataset into a format that PyTorch can use, such as a `torch.utils.data.Dataset`.
+2. Split your dataset into training and validation sets, for example using `torch.utils.data.random_split()`.
+3. Create a PyTorch model using the `torch.nn.Module` class, and define its forward pass in the `forward()` method.
+4. Define a loss function, for example using `torch.nn.CrossEntropyLoss()`.
+5. Define an optimizer, for example using `torch.optim.SGD()`.
+6. Write a training loop that iterates over your dataset in batches, applies the model to each batch, computes the loss, and updates the model parameters using the optimizer.
+7. In the training loop, also compute the validation accuracy on a separate validation dataset, for example by creating a `torch.utils.data.DataLoader` for the validation set and applying the model to it.
+8. Optionally, use the `torch.utils.tensorboard.SummaryWriter` class to log training and validation metrics to TensorBoard, for example to visualize the loss and accuracy over time.
+9. Train the model for a specified number of epochs or until convergence.
+10. Save the trained model to disk using `torch.save()`.
+
+
+## Running a Pre-Trained PyTorch Model on a Sample Test Dataset
+
+To run a pre-trained PyTorch model on a provided sample test dataset, you can follow these steps:
+
+1. Obtain the pre-trained PyTorch model file as a `.pth` file from the 
+2. Download or obtain the sample test dataset, which should be in a format that the model can handle.
+3. Create a PyTorch model using the same architecture and input format as the pre-trained model, and load the pre-trained parameters using `torch.load()`.
+4. Apply the model to the sample test dataset using a data loader, for example using `torch.utils.data.DataLoader`.
+5. Compute the model's output on each sample in the test dataset, for example using the `model()` function.
+6. Optionally, compute any desired evaluation metrics on the model output, for example accuracy or mean squared error.
+
+Here's some example code that demonstrates these steps:
+
+```python
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, Dataset
+
+model = MyModel(...)
+model.load_state_dict(torch.load('your_model_weights.pth'))```
+
+
+
+
+
+
+
 
 
 
