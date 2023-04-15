@@ -6,11 +6,9 @@
 Medical Imaging is a critical component of modern healthcare that can aid medical professionals to make more informed diagnostic decisions. Chest X-rays are the most commonly used medical imaging modality and their interpretation can be a time-consuming, challenging, and error-prone process, even for expert radiologists to accurately diagnose diseases. The advancement of AI has triggered a significant transformation in the field of Healthcare, thus, our project aims to utilize state-of-the-art AI models, to assist in the diagnosis of respiratory and cardiovascular conditions in patients. We seek to train advanced Convolutional Neural Networks (CNNs) (AlexNet, ResNet18, and Inceptionv3), with Chest X-Ray images, to compare the performance metrics of these AI models to identify the underlying trends in the data and to diagnose abnormalities accurately.
 
 
-## Expected Results
+## Proposed Methodology and Expected Results 
 
 The goal is to evaluate the models based on their metrics and draw insights into their performance on a particular dataset. Since the ResNet18 and Inceptionv3 have deep architectures we expect them to learn more features and perform better than the AlexNet. This can be verified by comparing the Accuracy, Precision, Recall, and F-Score of the models. However, the shallow nature of AlexNet and the lesser number of layers in ResNet18 help them train faster (training time per epoch) than Inceptionv3 and will thus be computationally less expensive.
-
-## Proposed Methodology
 
 To perform disease classification from Chest X-rays, we chose the datasets publicly available from Kaggle namely, the Chest Xray Images, Chest X-Ray Dataset for Respiratory Disease Classification, NIH Chest Xray-14.
 
