@@ -14,21 +14,87 @@ To perform disease classification from Chest X-rays, we chose the datasets publi
 
 ### Dataset 1
 
-This dataset consists of 5,856 chest X-ray images of patients with and without pneumonia. The data is present in a .jpeg format. It consists of 2 classes Normal (1,342) and Pneumonia (4,514), of size 1024*1024 [7].
-
-#### Source : https://www.kaggle.com/datasets/paulti/chest-xray-images
+This dataset consists of 5,856 chest X-ray images of patients with and without pneumonia. The data is present in a .jpeg format. It consists of 2 classes Normal (1,342) and Pneumonia (4,514), of size 1024*1024.
 
 ### Dataset 2
 
 This dataset contains a total of 32,687 images with 5 classes of respiratory diseases, including COVID-19 (4,189), Lung-Opacity (6,012), Normal (10,192), Viral Pneumonia (7,397), and Tuberculosis (4,897). The data is in the form of a .npz file, which is a dictionary containing the image (224*224), image name, and image label. We have sampled 12,000 images from this dataset.
 
-#### Source : 
-  Arkaprabha Basu, Sourav Das, Susmita Ghosh,
-  Sankha Mullick, Avisek Gupta, and Swagatam Das.
-  Chest X-Ray Dataset for Respiratory Disease Classification,2021.
-
 ### Dataset 3
 
-The NIH Chest X-rays dataset is a collection of 112,120 frontal-view chest X-ray images of 30,805 unique patients, of which we sample 20,000 images. The metadata is in a .csv format and the dataset represents 15 different abnormalities diagnosed including Atelectasis, Consolidation, Infiltration, Pneumothorax, Edema, Emphysema, Fibrosis,Effusion, Pneumonia, No Finding, Pleural thickening, Cardiomegaly, Nodule Mass, and Hernia. 
+The NIH Chest X-rays dataset is a collection of 112,120 frontal-view chest X-ray images of 30,805 unique patients, of which we sample 20,000 images. The metadata is in a .csv format and the dataset represents 15 different abnormalities diagnosed including Atelectasis, Consolidation, Infiltration, Pneumothorax, Edema, Emphysema, Fib
 
-#### Source :  https://www.kaggle.com/datasets/nih-chest-xrays/data
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Requirements
+
+To run Python with PyTorch and CUDA, you'll need to have the following requirements installed on your system:
+
+### Python
+
+You'll need to have Python 3.6 or later installed on your system. You can download the latest version of Python from the official website: https://www.python.org/downloads/
+
+
+### PyTorch
+
+You can install PyTorch using pip. Run the following command in your terminal to install PyTorch (refer - https://pytorch.org/get-started/locally/): 
+    `pip install torch torchvision`
+
+
+### CUDA
+
+To use PyTorch with CUDA, you'll need to have a compatible NVIDIA GPU and the CUDA toolkit installed on your system. You can download the CUDA toolkit from the official NVIDIA website: https://developer.nvidia.com/cuda-downloads
+
+
+Make sure to select the correct version of the CUDA toolkit that's compatible with your GPU and operating system.
+
+Once you have the CUDA toolkit installed, you'll need to set the following environment variables:
+
+  `export PATH=/usr/local/cuda/bin:$PATH`
+  `export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH`
+ 
+You can add these environment variables to your `.bashrc` file to make them persistent.
+
+### cuDNN
+
+You'll also need to install the cuDNN library, which is a CUDA-accelerated library for deep neural networks. You can download the cuDNN library from the NVIDIA website: https://developer.nvidia.com/cudnn
+
+
+Make sure to select the version of the cuDNN library that's compatible with your CUDA toolkit and operating system.
+
+Once you have all of these requirements installed, you should be able to run Python with PyTorch and CUDA on your system.
+
+
+
+### ALTERNTIVE - USE Google Colab 
+### Using PyTorch with CUDA on Google Colab
+
+To use Python with PyTorch and CUDA on Google Colab, you can follow these steps:
+
+1. Open a new notebook in Google Colab.
+2. Go to "Runtime" and select "Change runtime type".
+3. Under "Hardware accelerator", select "GPU" and click "SAVE".
+4. Install PyTorch using pip. Run the following command in a code cell: `!pip install torch torchvision`
+5. Verify that PyTorch is installed by importing it and printing the version number:
+
+`python
+import torch
+print(torch.__version__)`
+This should output the version number of PyTorch.
+
+6. To use CUDA, you don't need to install anything additional on Google Colab since it already has the CUDA toolkit and drivers installed on its virtual machines.
+7. You can now start using PyTorch with CUDA in your Google Colab notebook.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
