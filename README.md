@@ -157,6 +157,8 @@ download the whole folder and place it in the same directory where the we run th
 
 ### Ablation results
 
+hyper parameter tuning on dataset 2
+
 | optimizer     |  Adam  |        |        |         |   SGD  |        |        |        |
 |---------------|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|:------:|
 | learning rate |  0.005 | 0.0001 | 0.0005 | 0.00001 |  0.05  |  0.01  |  0.005 |  0.001 |
