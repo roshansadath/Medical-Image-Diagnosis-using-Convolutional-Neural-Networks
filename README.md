@@ -131,7 +131,11 @@ model = torch.hub.load('pytorch/vision:v0.9.0', 'resnet18', pretrained=True)
 model.load_state_dict(torch.load('your_model_weights.pth'))
 ```
 
-##### Weights files (.pth)  and the code to run above steps can be found in the following directories in this repo:
+##### Weights files (.pth) are foung in below links
+    link - drive need to be updated !!!!!!!!!
+
+
+##### the code to run above steps can be found in the following directories in this repo:
 
     COMP6721_Winter2023_GroupN/Simple Chest XRay/
     COMP6721_Winter2023_GroupN/Harvard Chest XRay/
@@ -143,7 +147,10 @@ model.load_state_dict(torch.load('your_model_weights.pth'))
 
 
 
+### Sample data
 
+Follow the drive link - https://drive.google.com/drive/folders/10e-Yf_PxUTCDvh97mU1C5dp5tz7flEKk?usp=sharing
+download the whole folder and place it in the same directory where the we run the code to train and test
 
 
 
