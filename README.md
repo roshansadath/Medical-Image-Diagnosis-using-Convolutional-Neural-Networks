@@ -122,7 +122,7 @@ To run a pre-trained PyTorch model on a provided sample test dataset, you can fo
 4. Apply the model to the sample test dataset using a data loader, for example using `torch.utils.data.DataLoader`.
 5. Compute the model's output on each sample in the test dataset, for example using the `model()` function.
 
-######## example code that loads model from weights:
+##### example code that loads model from weights:
 ```
 python
 import torch
