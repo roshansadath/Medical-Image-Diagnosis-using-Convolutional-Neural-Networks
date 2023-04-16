@@ -123,11 +123,11 @@ To run a pre-trained PyTorch model on a provided sample test dataset, you can fo
 5. Compute the model's output on each sample in the test dataset, for example using the `model()` function.
 
  example code that loads model from weights:
-``python
-import torch
-from torch.utils.data import DataLoader, Dataset
-model = torch.hub.load('pytorch/vision:v0.9.0', 'resnet18', pretrained=True)
-model.load_state_dict(torch.load('your_model_weights.pth'))``
+    ```python
+    import torch
+    from torch.utils.data import DataLoader, Dataset
+    model = torch.hub.load('pytorch/vision:v0.9.0', 'resnet18', pretrained=True)
+    model.load_state_dict(torch.load('your_model_weights.pth'))```
 
 ##### Weights files (.pth)  and the code to run above steps can be found in the following directories in this repo:
 
