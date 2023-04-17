@@ -16,8 +16,7 @@ To perform disease classification from Chest X-rays, we chose the datasets publi
 
 This dataset consists of 5,856 chest X-ray images of patients with and without pneumonia. The data is present in a .jpeg format. It consists of 2 classes Normal (1,342) and Pneumonia (4,514), of size 1024*1024.
 Source:  Chest xray images to diagnose pneumonia
-— kaggle.com. https://www.kaggle.com/
-datasets/paulti/chest-xray-images. Accessed 8-Mar-2023
+— kaggle.com. https://www.kaggle.com/datasets/paulti/chest-xray-images
 
 ### Dataset 2
 
