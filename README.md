@@ -25,7 +25,7 @@ This dataset contains a total of 32,687 images with 5 classes of respiratory dis
 Source: Arkaprabha Basu, Sourav Das, Susmita Ghosh, Sankha
 Mullick, Avisek Gupta, and Swagatam Das. Chest
 X-Ray Dataset for Respiratory Disease Classification,
-2021
+2021  -  https://dataverse.harvard.edu/file.xhtml?fileId=5194823&version=5.1 
 
 ### Dataset 3
 
