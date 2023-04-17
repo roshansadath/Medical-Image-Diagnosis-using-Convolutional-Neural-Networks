@@ -131,9 +131,11 @@ model = torch.hub.load('pytorch/vision:v0.9.0', 'resnet18', pretrained=True)
 model.load_state_dict(torch.load('your_model_weights.pth'))
 ```
 
-##### Weights files (.pth) are foung in below links
-    link - drive need to be updated !!!!!!!!!
-
+##### Saved Model files (.pth) are found in below links
+    ResNet18 - Dataset 1 : https://drive.google.com/file/d/1-AJMU30_2ppw-yORpCqfM-zvI_JgaarB/view?usp=sharing.
+    AlexNet - Dataset 2 : https://drive.google.com/file/d/1FEsD9htWVHe7BxBNtFT2aWeT1GhzAYyv/view?usp=share_link.
+    Inceptionv3 - Dataset 2 : https://drive.google.com/file/d/1-9kRtWVIPHfzm5V3vXFN4H-qaBO9tpul/view?usp=sharing.
+    ResNet18 - Dataset 3 : https://drive.google.com/file/d/176zEWSmk3QoX_bdImW8MeeHhYFn-O_Xm/view?usp=sharing. 
 
 ##### the code to run above steps can be found in the following directories in this repo:
 
